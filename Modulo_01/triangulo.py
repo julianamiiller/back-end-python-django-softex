@@ -7,6 +7,5 @@ if lado_a <=0 or lado_b <=0 or lado_c <=0:
 
 elif lado_a < lado_b + lado_c and lado_b < lado_a + lado_c and lado_c < lado_a + lado_b:
     print("Triângulo formado. ")
-
 else:
     print("Os lados não podem se transformar em um triângulo. ")
